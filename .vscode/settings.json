@@ -5,7 +5,15 @@
     "strings": true
   },
   "editor.suggestOnTriggerCharacters": true,
-  "editor.inlineSuggest.enabled": true,
+  "editor.inlineSuggest.enabled": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.tabCompletion": "on"
+  "editor.tabCompletion": "off",
+  "github.copilot.editor.enableAutoCompletions": false,
+  "editor.autoClosingTags": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false,
+  "vue.autoClosingTags": false
 }

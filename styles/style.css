@@ -1,11 +1,16 @@
+
+ 
  .name {
-    background-color: green;
-    color: white;
+    background-color: white;
+    color: black;
+    height: 81px;
     justify-content: space-between;
     display: flex;
+
  }
 
  .subname {
+
   align-content: center;
  }
 
@@ -14,10 +19,51 @@
   object-fit: cover;
  }
 
- .content {
+ .menu {
   
+   justify-content:center;
+   align-items: center;
+   display:flex;
+ }
+ .menu p {
+   margin-left:15px;
+ }
+
+ .line-v {
+   height: 2px;
+   width: 400px;
+   background: #ddd;
+ }
+
+
+ .content {
+    
   display: flex;
   flex-direction: column;
+ }
+
+
+
+ .content .slogan h1 {
+
+   font-size: 120px;
+   line-height:0.80;
+   font-size: clamp(40px, 8vw, 140px);
+   color: #413f3f;
+   font-family:"Hanken Grotesk", Inter, Manrope, Georgia, Serif ;
+ }
+ .slogan {
+   margin-left: 100px;
+   align-items: center;
+   justify-content: flex-start;
+   display:flex;
+ }
+
+
+ .line-h {
+   width: 2px;
+   height: 400px;
+   background: #ddd;
  }
 
  .presentacion {
