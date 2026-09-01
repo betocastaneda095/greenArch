@@ -29,10 +29,12 @@
    margin-left:15px;
  }
 
- .line-v {
-   height: 2px;
-   width: 400px;
-   background: #ddd;
+ .line-h {
+  margin-left:auto;
+  margin-right:auto; 
+  height: 2px;
+  width: 80vw;
+  background: #ddd;
  }
 
 
@@ -60,13 +62,26 @@
  }
 
 
- .line-h {
+ .line-v {
    width: 2px;
    height: 400px;
    background: #ddd;
  }
 
  .presentacion {
+  margin-left: 100px;
+  margin-top: 70px;
   text-align: center;
+
+  display: flex;  
+ }
+
+ .presentacion h1 {
+  font-size: 80px; 
+  color: #413f3f;
  }
  
+.sub-presentation {
+
+  display:flex;
+}
